@@ -7,7 +7,7 @@
  *
  * @author FADHILA
  */
-public class Kelengkeng {
+public class Apel {
 
     String nama, warna, bentuk, rasa, ukuran;
 
