@@ -11,19 +11,19 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Kelengkeng fr = new Kelengkeng();
+        Buah_naga fr = new Buah_naga();
 
-        fr.setnama_buah("Kelengkeng");
-        fr.setWarna("kuning");
-        fr.setbentuk("bunder");
-        fr.setrasa("manis");
-        fr.setukuran("kecil");
+        fr.setnama_buah("Buah_Naga");
+        fr.setWarna("merah");
+        fr.setbentuk("bulat lonjong");
+        fr.setrasa("manis asam");
+        fr.setukuran("sedang");
 
-        System.out.println("\n\t\t\tKelengkeng");
+        System.out.println("\n\t\t\tBuah_Naga");
         System.out.println("Nama              : " + fr.getnama_buah());
         System.out.println("Warna             : " + fr.getWarna());
-        System.out.println("Iklim             : " + fr.getbentuk());
-        System.out.println("Tanah             : " + fr.getrasa());
-        System.out.println("Hewan Penyerbuk   : " + fr.getukuran());
+        System.out.println("Bentuk            : " + fr.getbentuk());
+        System.out.println("Rasa              : " + fr.getrasa());
+        System.out.println("Ukuran            : " + fr.getukuran());
 }
 }
